@@ -86,3 +86,37 @@ body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   .tag{white-space:normal}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.entry-card{transition:none}}
+
+
+/* AI paleoart reconstruction */
+.paleo-visual {
+  margin: 1.5rem 0;
+  padding: .65rem;
+  background: #e9e3d5;
+  border: 1px solid rgba(75, 83, 58, .18);
+  border-radius: 14px;
+}
+.paleo-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: contain;
+  border-radius: 9px;
+}
+.paleo-visual figcaption {
+  padding: .7rem .35rem .25rem;
+  color: #6c705f;
+  font-size: .82rem;
+  line-height: 1.5;
+}
+.visual-sources { margin-top: 1.2rem; }
+.visual-disclaimer {
+  margin-top: 1.2rem;
+  padding: .9rem 1rem;
+  border-left: 3px solid #87916b;
+  background: rgba(135, 145, 107, .10);
+  color: #666957;
+  font-size: .88rem;
+  line-height: 1.65;
+}
