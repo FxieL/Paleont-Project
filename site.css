@@ -120,3 +120,8 @@ body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   font-size: .88rem;
   line-height: 1.65;
 }
+
+/* Keep the full dinosaur thumbnail visible on narrow screens */
+@media(max-width:680px){
+  .entry-card img{object-fit:contain!important;background:#e9e4d8}
+}
