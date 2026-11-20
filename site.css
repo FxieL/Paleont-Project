@@ -125,3 +125,13 @@ body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 @media(max-width:680px){
   .entry-card img{object-fit:contain!important;background:#e9e4d8}
 }
+
+
+/* Sauropoda category species cards */
+.sauropod-card{min-height:235px;gap:18px;background:var(--white);border:1px solid #dedacd;box-shadow:0 3px 12px #3a40300a}
+.sauropod-card-top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.sauropod-family{font:9px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+.species-status{font:9px var(--mono);padding:4px 8px;border-radius:20px;background:#e5eadf;color:var(--green)}
+.species-status.coming{background:#eee9dc;color:#777363}
+.sauropod-card h2{margin-top:9px}
+@media(max-width:680px){.sauropod-card{min-height:220px;padding:16px}.sauropod-card-top{align-items:flex-start}.sauropod-card p{font-size:12px}}
