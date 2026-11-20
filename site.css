@@ -135,3 +135,18 @@ body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .species-status.coming{background:#eee9dc;color:#777363}
 .sauropod-card h2{margin-top:9px}
 @media(max-width:680px){.sauropod-card{min-height:220px;padding:16px}.sauropod-card-top{align-items:flex-start}.sauropod-card p{font-size:12px}}
+
+
+/* Ornithischia group page and taxonomy links */
+.clade-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+.clade-card{min-height:225px;gap:16px;background:var(--white);border:1px solid #dedacd;box-shadow:0 3px 12px #3a40300a}
+.clade-card h2{font-size:21px}
+.clade-card p{font-size:12px}
+.taxonomy-path{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:16px 0}
+.taxonomy-path span,.taxonomy-path strong{font:10px var(--mono);padding:7px 10px;border-radius:4px;background:#e8e5da;color:#55594f}
+.taxonomy-path span:not(:last-of-type)::after{content:"  →";color:var(--orange);margin-left:7px}
+.taxonomy-path strong{background:var(--green);color:#f6f2e7}
+.clade-link-section{margin:0 0 30px}
+.clade-link-card{min-height:170px;border-color:#dedacd;box-shadow:0 3px 12px #3a40300a}
+@media(max-width:900px){.clade-cards{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.clade-cards{grid-template-columns:1fr}.clade-card{min-height:190px}.taxonomy-path{gap:5px}.taxonomy-path span,.taxonomy-path strong{font-size:9px;padding:6px 7px}}
